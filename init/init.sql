@@ -5,7 +5,7 @@ USE learn_db;
 
 CREATE TABLE IF NOT EXISTS appointment (
   id INT AUTO_INCREMENT PRIMARY KEY,
-  last_name  VARCHAR(10) NOT NULL,
+  last_name  VARCHAR(100) NOT NULL,
   first_name VARCHAR(100) NOT NULL,
   pet_name   VARCHAR(100) NOT NULL,
   phone      VARCHAR(32)  NOT NULL,
